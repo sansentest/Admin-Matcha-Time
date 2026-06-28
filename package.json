@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sansentest.github.io/matchakhadmin",
+  "homepage": "https://sansentest.github.io/Admin-Matcha-Time",
   "name": "admin-panel",
   "private": true,
   "version": "0.0.0",
@@ -10,8 +10,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^1.21.0",
@@ -26,6 +25,7 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.2",
     "autoprefixer": "^10.5.2",
+    "gh-pages": "^6.3.0",
     "oxlint": "^1.69.0",
     "postcss": "^8.5.15",
     "tailwindcss": "^4.3.1",
